@@ -1,28 +1,21 @@
 fileFormatVersion: 2
 guid: c09eb5063ee64fd41b9c3e868ef7504b
-AssetOrigin:
-  serializedVersion: 1
-  productId: 137981
-  packageName: Simple 2D Template
-  packageVersion: 1.2
-  assetPath: Assets/IndieMarc/PlatformerDemo/Sprites/Character/Character_hold.png
-  uploadId: 322227
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
+      213: 1214982900973275878
     second: Character_hold_0
   - first:
-      213: 21300002
+      213: -5016170954044053141
     second: Character_hold_1
   - first:
-      213: 21300004
+      213: 4803543568177610562
     second: Character_hold_2
   - first:
-      213: 21300006
+      213: -6269053066501196895
     second: Character_hold_3
   - first:
-      213: 21300008
+      213: 1047867637180587105
     second: Character_hold_4
   externalObjects: {}
   serializedVersion: 13
@@ -70,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -85,9 +78,9 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
@@ -101,7 +94,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -114,46 +107,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -161,20 +115,20 @@ TextureImporter:
       name: Character_hold_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 26
-        width: 139
-        height: 330
+        x: 0
+        y: 448
+        width: 207
+        height: 460
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 02305410000000000800000000000000
-      internalID: 21300000
+      spriteID: 6ea8facd28c7cd010800000000000000
+      internalID: 1214982900973275878
       vertices: []
       indices: 
       edges: []
@@ -183,20 +137,20 @@ TextureImporter:
       name: Character_hold_1
       rect:
         serializedVersion: 2
-        x: 179
-        y: 26
-        width: 130
-        height: 330
+        x: 217
+        y: 470
+        width: 203
+        height: 427
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 22305410000000000800000000000000
-      internalID: 21300002
+      spriteID: b696297181bf26ab0800000000000000
+      internalID: -5016170954044053141
       vertices: []
       indices: 
       edges: []
@@ -205,20 +159,20 @@ TextureImporter:
       name: Character_hold_2
       rect:
         serializedVersion: 2
-        x: 328
-        y: 26
-        width: 119
-        height: 330
+        x: 438
+        y: 465
+        width: 136
+        height: 433
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 42305410000000000800000000000000
-      internalID: 21300004
+      spriteID: 24fb65ccc6d99a240800000000000000
+      internalID: 4803543568177610562
       vertices: []
       indices: 
       edges: []
@@ -227,20 +181,20 @@ TextureImporter:
       name: Character_hold_3
       rect:
         serializedVersion: 2
-        x: 450
-        y: 26
-        width: 135
-        height: 330
+        x: 601
+        y: 467
+        width: 210
+        height: 428
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 62305410000000000800000000000000
-      internalID: 21300006
+      spriteID: 1a37f1d6379dff8a0800000000000000
+      internalID: -6269053066501196895
       vertices: []
       indices: 
       edges: []
@@ -249,20 +203,20 @@ TextureImporter:
       name: Character_hold_4
       rect:
         serializedVersion: 2
-        x: 659
-        y: 26
-        width: 104
-        height: 330
+        x: 858
+        y: 470
+        width: 166
+        height: 425
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 82305410000000000800000000000000
-      internalID: 21300008
+      spriteID: 16cd6cd6016ca8e00800000000000000
+      internalID: 1047867637180587105
       vertices: []
       indices: 
       edges: []
@@ -271,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e0b03d76f62e575488c6d27a27992614
     internalID: 0
     vertices: []
     indices: 
@@ -281,11 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Character_hold_0: 21300000
-      Character_hold_1: 21300002
-      Character_hold_2: 21300004
-      Character_hold_3: 21300006
-      Character_hold_4: 21300008
+      Character_hold_0: 1214982900973275878
+      Character_hold_1: -5016170954044053141
+      Character_hold_2: 4803543568177610562
+      Character_hold_3: -6269053066501196895
+      Character_hold_4: 1047867637180587105
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
