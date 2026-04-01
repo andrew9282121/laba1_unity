@@ -1,25 +1,30 @@
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class CoinCounter : MonoBehaviour {
-  public static CoinCounter instance;
-  public TextMeshProUGUI coinText;
+  public static CoinCounter Instance;
+
+  public Text coinText;
+
   private int coins = 0;
 
   void Awake() {
-    instance = this;
-    UpdateText();
-  }
-
-  public void AddCoin() {
-    coins++;
-    UpdateText();
-  }
-
-  void UpdateText() {
-    if (coinText != null)
-      coinText.text = "Монеты: " + coins;
+    if (Instance == null)
+      Instance = this;
     else
-      Debug.LogError("coinText is NULL!");
+      Destroy(gameObject);
+  }
+
+  void Start() {
+    UpdateUI();
+  }
+
+  public void AddCoin(int amount = 1) {
+    coins += amount;
+    UpdateUI();
+  }
+
+  private void UpdateUI() {
+    coinText.text = "Монеты: " + coins;
   }
 }
