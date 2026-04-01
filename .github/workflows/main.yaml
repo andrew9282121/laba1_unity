@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   push: 
 
-#  Разрешения на запись в Checks API
 permissions:
   checks: write
   contents: read
@@ -23,6 +22,18 @@ jobs:
           - editmode
 
     steps:
+      # ШАГ 1: Очистка места на диске (Критично для Unity 6)
+      - name: Free Disk Space
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          tool-cache: false
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
+
       - uses: actions/checkout@v4
         with:
           lfs: true
@@ -66,6 +77,18 @@ jobs:
           - Android
 
     steps:
+      # ШАГ 1: Очистка места на диске перед билдом
+      - name: Free Disk Space
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          tool-cache: false
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
+
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
