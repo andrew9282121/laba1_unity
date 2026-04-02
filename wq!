@@ -1,0 +1,53 @@
+NEWversion
+
+# Conflicts:
+#	Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity
+#
+# It looks like you may be committing a cherry-pick.
+# If this is not correct, please run
+#	git update-ref -d CHERRY_PICK_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Author:    UliaGrishkova <501138@niuitmo.ru>
+# Date:      Thu Apr 2 02:55:45 2026 +0300
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Last command done (1 command done):
+#    pick c309e7c # NEWversion
+# No commands remaining.
+# You are currently rebasing branch 'feature/scene-architecture' on '77d1166'.
+#
+# Changes to be committed:
+#	modified:   Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity
+#	modified:   Assets/IndieMarc/PlatformerDemo/Prefabs/CharacterPlatformer.prefab
+#	new file:   Assets/IndieMarc/PlatformerDemo/Sprites/Background/Back_ground.png
+#	renamed:    Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees2.png.meta -> Assets/IndieMarc/PlatformerDemo/Sprites/Background/Back_ground.png.meta
+#	deleted:    Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.mat
+#	deleted:    Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.mat.meta
+#	modified:   Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.png
+#	modified:   Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.png.meta
+#	deleted:    Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees2.mat
+#	deleted:    Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees2.mat.meta
+#	deleted:    Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees2.png
+#	deleted:    Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees3.mat
+#	deleted:    Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees3.mat.meta
+#	deleted:    Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees3.png
+#	deleted:    Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees3.png.meta
+#	modified:   Assets/IndieMarc/PlatformerDemo/Sprites/Background/grass1.png
+#	modified:   Assets/IndieMarc/PlatformerDemo/Sprites/Background/grass2.png
+#	modified:   Assets/IndieMarc/PlatformerDemo/Sprites/Character/Character.png
+#	modified:   Assets/IndieMarc/PlatformerDemo/Sprites/Character/Character.png.meta
+#	modified:   Assets/IndieMarc/PlatformerDemo/Sprites/Character/Character_hold.png
+#	modified:   Assets/IndieMarc/PlatformerDemo/Sprites/Character/Character_hold.png.meta
+#	new file:   Assets/_Recovery.meta
+#	new file:   Assets/_Recovery/0.unity
+#	new file:   Assets/_Recovery/0.unity.meta
+#	modified:   Packages/manifest.json
+#	modified:   Packages/packages-lock.json
+#
